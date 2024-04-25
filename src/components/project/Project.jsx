@@ -17,9 +17,9 @@ const data = [
   {
     id: 1,
     image: cover1,
-    title: "Novelty Book Swap",
-    github: "https://github.com/isayani/novelty-book-swap",
-    demo: "https://novelty-book-swap.herokuapp.com/",
+    title: "Dev-Loop",
+    github: "https://github.com/prappleman/dev-loop",
+    demo: "https://dev-loop-f0cb37ae8bd9.herokuapp.com",
   },
   {
     id: 2,

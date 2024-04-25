@@ -1,9 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-
-// TODO: change ME photo
-import Me from "../../assets/IMG_8775.png";
+import Me from "../../assets/profile.png";
 import HeaderSocials from "./HeaderSocials";
 
 function Header() {

@@ -1,6 +1,6 @@
 import React from 'react'
 // TODO: change resume
-// import Resume from '../../assets/cv.pdf'
+import Resume from '../../assets/cv.pdf'
 
 const CTA = () => {
   return (

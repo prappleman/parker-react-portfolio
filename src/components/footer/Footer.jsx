@@ -3,15 +3,10 @@ import './footer.css'
 import {AiOutlineFacebook, AiOutlineInstagram} from 'react-icons/ai'
 import {TfiTwitter} from 'react-icons/tfi'
 import {FiGithub, FiLinkedin} from 'react-icons/fi'
-// TODO: remove signature
-import Signature from '../../assets/Signature-White.png'
-
 
 function Footer() {
   return (
     <footer id='footer'>
-      <a href="#" className="footer__logo"><img src={Signature} alt='image of Parker Rappleye'/></a>
-
       <ul className="permaLinks">
        <li><a href="#">Home</a></li>
        <li><a href="#about">About</a></li>
@@ -21,7 +16,7 @@ function Footer() {
        <li><a href="#contact">Contact</a></li>
       </ul>
 
-// TODO: change links to mine
+{/* TODO: change links to mine*/}
 
       <div className="footer__socials">
         <a href="https://facebook.com/isayaniphotography" target="_blank"><AiOutlineFacebook/></a>
@@ -34,7 +29,7 @@ function Footer() {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; ISayani Creative Services 2022</small>
+        <small>&copy; Parker Rappleye</small>
       </div>
     </footer>
   )

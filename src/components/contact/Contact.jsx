@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 
 
-// TODO: change links to mine
+// TODO: check contact form
 
 function Contact() {
   return (
@@ -17,7 +17,7 @@ function Contact() {
           <article className="contact__option">
             <HiOutlineMail className="contact__option-icon"/>
             <h4>Email</h4>
-            <a href="mailto:inshasayani@gmail.com" target="_blank" className="">
+            <a href="mailto:parker.rappleye1@gmail.com" target="_blank" className="">
               Send a message
             </a>
           </article>
@@ -25,7 +25,7 @@ function Contact() {
             <FiLinkedin className="contact__option-icon"/>
             <h4>LinkedIn</h4>
             <a
-              href="https://www.linkedin.com/in/inshasayani"
+              href="https://www.linkedin.com/in/parker-rappleye/"
               target="_blank"
               className=""
             >
