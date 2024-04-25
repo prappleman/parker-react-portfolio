@@ -11,11 +11,11 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
+  --color-bg: #2d2d3b;
   --color-nav: rgba(0, 0, 0, 0.3);
-  --color-bg-variant:#2c2c6c;
-  --color-primary: #4dffe4;
-  --color-primary-variant: rgba(77, 255, 228, 0.4);
+  --color-bg-variant:#2e2e39;
+  --color-primary: #beae90;
+  --color-primary-variant: #aea18a;
   --color-white: white;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -39,7 +39,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-color: #1f1f38;
+  background-color: #1a1a1e;
 }
 
 /* ------- GENERAL STYLES -------- */
