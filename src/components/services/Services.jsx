@@ -1,7 +1,7 @@
 import React from 'react'
 import './services.css'
 import {FiCheck} from 'react-icons/fi'
-
+// TODO: update services so its more accurate
 function Services() {
   return (
     <section id='services'>

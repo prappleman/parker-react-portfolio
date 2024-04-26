@@ -1,7 +1,7 @@
 import React from "react";
 import "./experience.css";
 import { BsCheck2Circle } from "react-icons/bs";
-
+// TODO: change experience levels
 function Experience() {
   return (
     <section id="experience">
