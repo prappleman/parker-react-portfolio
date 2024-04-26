@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 
 
-// TODO: check contact form
+// TODO: fix contact form
 
 function Contact() {
   return (
@@ -14,36 +14,29 @@ function Contact() {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
-            <HiOutlineMail className="contact__option-icon"/>
-            <h4>Email</h4>
-            <a href="mailto:parker.rappleye1@gmail.com" target="_blank" className="">
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
-            <FiLinkedin className="contact__option-icon"/>
-            <h4>LinkedIn</h4>
-            <a
-              href="https://www.linkedin.com/in/parker-rappleye/"
-              target="_blank"
-              className=""
-            >
-              Connect with me
-            </a>
-          </article>
-          <article className="contact__option">
-            <FiGithub className="contact__option-icon"/>
-            <h4>GitHub</h4>
-            <a
-              href="https://www.github.com/prappleman"
-              target="_blank"
-              className=""
-            >
-              Browse my projects
-            </a>
-          </article>
+          <a href="mailto:parker.rappleye1@gmail.com" target="_blank" className="contact__option">
+            <article>
+              <HiOutlineMail className="contact__option-icon" />
+              <h4>Email</h4>
+              <p>Send a message</p>
+            </article>
+          </a>
+          <a href="https://www.linkedin.com/in/parker-rappleye/" target="_blank" className="contact__option">
+            <article>
+              <FiLinkedin className="contact__option-icon" />
+              <h4>LinkedIn</h4>
+              <p>Connect with me</p>
+            </article>
+          </a>
+          <a href="https://www.github.com/prappleman" target="_blank" className="contact__option">
+            <article>
+              <FiGithub className="contact__option-icon" />
+              <h4>GitHub</h4>
+              <p>Browse my projects</p>
+            </article>
+          </a>
         </div>
+
         
         {/* START CONTACT FORM*/}
         <form>
