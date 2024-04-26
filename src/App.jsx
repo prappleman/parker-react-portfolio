@@ -15,7 +15,7 @@ const App = () => {
       <Nav />
       <About />
       <Experience />
-      <Services />
+      {/* TODO: add service back <Services />*/}
       <Project />
       <Contact />
       <Footer />
