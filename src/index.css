@@ -14,8 +14,8 @@
   --color-bg: #2d2d3b;
   --color-nav: rgba(0, 0, 0, 0.3);
   --color-bg-variant:#2e2e39;
-  --color-primary: #beae90;
-  --color-primary-variant: #aea18a;
+  --color-primary: #2e8b66;
+  --color-primary-variant: #52987c;
   --color-white: white;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -33,7 +33,6 @@ html {
 ::-webkit-scrollbar {
   display: none;
 }
-/* TODO: change background*/
 body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
@@ -95,7 +94,7 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  color: var(--color-white);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -111,7 +110,7 @@ a:hover {
 
 .btn-primary {
   background: var(--color-primary);
-  color: var(--color-bg)
+  color: var(--color-white)
 }
 
 img {

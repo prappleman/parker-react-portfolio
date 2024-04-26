@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
+  row-gap: 5rem;
 }
 
 .about__me {
@@ -24,11 +25,12 @@
 }
 
 .about__me-image:hover {
-  transform: rotate(10deg);
+  transform:  rotate(7deg) translateX(25px);
 }
 
 .about__cards {
   display: grid;
+  grid-column: 1 / span 2; /* Item 1 spans all three columns */
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
@@ -64,7 +66,7 @@
 }
 
 .about__content p {
-  margin: 2rem 0 2.6rem;
+  margin: 0 0 2rem;
   color: var(--color-light);
 }
 
@@ -87,13 +89,17 @@
   .about__content p {
     margin: 1rem 0 1.5rem;
   }
+
+  .about__cards {
+    grid-column: 1 / span 1; /* Item 1 spans all three columns */
+  }
 }
 
 /* ----- SMALL MEDIA QUERY ----- */
 @media screen and (max-width: 600px) {
   .about__me {
     width: 65%;
-    margin: 0 auto 3rem;
+    margin: 3rem auto 3rem;
   }
 
   .about__cards {

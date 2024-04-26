@@ -28,13 +28,6 @@ header {
   font-size: 2rem;
 }
 
-.header__socials::after {
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
-}
-
 /* --------- ME IMAGE --------- */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
