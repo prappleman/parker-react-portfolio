@@ -8,22 +8,21 @@ function About() {
     <section id="about">
       <h5>Get to Know</h5>
       <h2>About Me</h2>
-{/* TODO: change cards */}
       <div className="container about__container">
         <div className="about__cards">
           <article className="about__card">
             <icon className="about__icon">
               <FaAward />
             </icon>
-            <h5>Experience</h5>
-            <small>?+ Years Working</small>
+            <h5>Languages</h5>
+            <small>3+ learned</small>
           </article>
           <article className="about__card">
             <icon className="about__icon">
               <FaUsers />
             </icon>
-            <h5>Clients</h5>
-            <small>?+ Worldwide</small>
+            <h5>Team Projects</h5>
+            <small>5+ Completed</small>
           </article>
           <article className="about__card">
             <icon className="about__icon">
