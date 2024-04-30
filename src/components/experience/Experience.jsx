@@ -1,7 +1,7 @@
 import React from "react";
 import "./experience.css";
 import { BsCheck2Circle } from "react-icons/bs";
-// TODO: change experience levels
+
 function Experience() {
   return (
     <section id="experience">
@@ -65,7 +65,7 @@ function Experience() {
               <BsCheck2Circle className="experience__details-icon" />
               <div>
                 <h4>Handlebars</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">experienced</small>
               </div>
             </article>
           </div>
