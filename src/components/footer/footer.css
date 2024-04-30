@@ -40,7 +40,7 @@ footer a {
   padding: 0.8rem;
   border-radius: 0.7rem;
   display: flex;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 
 .footer__socials a:hover {

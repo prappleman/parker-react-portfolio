@@ -16,7 +16,7 @@
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     transition: var(--transition);
 }
 
@@ -51,7 +51,7 @@ input, textarea {
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-primary);
+    color: var(--color-white);
 }
 
 textarea {
