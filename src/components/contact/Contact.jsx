@@ -14,21 +14,21 @@ function Contact() {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <a href="mailto:parker.rappleye1@gmail.com" target="_blank" className="contact__option">
+          <a href="mailto:parker.rappleye1@gmail.com" target="_blank" rel="noreferrer" className="contact__option">
             <article>
               <HiOutlineMail className="contact__option-icon" />
               <h4>Email</h4>
               <p>Send a message</p>
             </article>
           </a>
-          <a href="https://www.linkedin.com/in/parker-rappleye/" target="_blank" className="contact__option">
+          <a href="https://www.linkedin.com/in/parker-rappleye/" target="_blank" rel="noreferrer" className="contact__option">
             <article>
               <FiLinkedin className="contact__option-icon" />
               <h4>LinkedIn</h4>
               <p>Connect with me</p>
             </article>
           </a>
-          <a href="https://www.github.com/prappleman" target="_blank" className="contact__option">
+          <a href="https://www.github.com/prappleman" target="_blank" rel="noreferrer" className="contact__option">
             <article>
               <FiGithub className="contact__option-icon" />
               <h4>GitHub</h4>

@@ -15,7 +15,7 @@ function Header() {
           <CTA />
           <div>
             <div className="me">
-              <img src={Me} alt="image of Parker Rappleye" />
+              <img src={Me} target="_blank" rel="noreferrer" alt="Parker Rappleye" />
             </div>
           </div>
           <HeaderSocials />
