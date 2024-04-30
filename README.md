@@ -50,7 +50,7 @@ Welcome to my portfolio! This repository hosts the code for my single-page appli
 - Navigation links include About Me, Portfolio, Contact, and Resume.
 - Current section title is highlighted.
   
-![Footer and Navigation](src/assets/contact-footer.png)
+![Footer and Navigation](src/assets/)
 
 ## License
 
