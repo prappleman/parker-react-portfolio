@@ -22,29 +22,31 @@ Welcome to my portfolio! This repository hosts the code for my single-page appli
 
 ## Features
 
-### Header and Navigation
+### Header and Resume Section
 - My name is displayed in the header.
-- Navigation links include About Me, Portfolio, Contact, and Resume.
-- Current section title is highlighted.
+- Includes a downloadable link to my resume.
+- Lists my skills and proficiencies.
+![Alt Text](src/assets/header.png)
 
 ### About Me Section
 - Includes a recent photo or avatar of me.
 - Contains a short bio about me and my background.
+![Alt Text](src/assets/about.png)
 
 ### Portfolio Section
 - Displays titled images of six projects I've completed.
 - Links to deployed applications and corresponding GitHub repositories.
+![Alt Text](src/assets/projects.png)
 
 ### Contact Section
 - Includes a contact form with fields for name, email address, and message.
 - Provides notifications for required fields and invalid email addresses.
 
-### Resume Section
-- Includes a downloadable link to my resume.
-- Lists my skills and proficiencies.
-
-### Footer
+### Footer and Navigation
 - Contains text or icon links to my GitHub, LinkedIn, and another platform profile.
+- Navigation links include About Me, Portfolio, Contact, and Resume.
+- Current section title is highlighted.
+![Alt Text](src/assets/contact-footer.png)
 
 ## License
 
