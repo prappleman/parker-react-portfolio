@@ -26,16 +26,19 @@ Welcome to my portfolio! This repository hosts the code for my single-page appli
 - My name is displayed in the header.
 - Includes a downloadable link to my resume.
 - Lists my skills and proficiencies.
+  
 ![Header](src/assets/header.png)
 
 ### About Me Section
 - Includes a recent photo or avatar of me.
 - Contains a short bio about me and my background.
+  
 ![About Me](src/assets/about.png)
 
 ### Portfolio Section
 - Displays titled images of six projects I've completed.
 - Links to deployed applications and corresponding GitHub repositories.
+  
 ![Portfolio](src/assets/projects.png)
 
 ### Contact Section
@@ -46,6 +49,7 @@ Welcome to my portfolio! This repository hosts the code for my single-page appli
 - Contains text or icon links to my GitHub, LinkedIn, and another platform profile.
 - Navigation links include About Me, Portfolio, Contact, and Resume.
 - Current section title is highlighted.
+  
 ![Footer and Navigation](src/assets/contact-footer.png)
 
 ## License
