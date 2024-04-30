@@ -2,11 +2,28 @@ import React from "react";
 import "./contact.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
-
-
-// TODO: fix contact form
+import emailjs from "emailjs-com";
 
 function Contact() {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      await emailjs.sendForm(
+        "service_va6xc0e",
+        "template_15hahoq",
+        e.target,
+        "sbp1jEyZcHCeqmoWE"
+      );
+
+      alert("Email sent successfully!");
+      e.target.reset(); // Reset the form
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Error sending email. Please try again later.");
+    }
+  };
+
   return (
     <section id="contact">
       <h5>Get in Touch</h5>
@@ -37,12 +54,11 @@ function Contact() {
           </a>
         </div>
 
-        
         {/* START CONTACT FORM*/}
-        <form>
+        <form onSubmit={handleSubmit}>
           <input
             type="text"
-            name="name"
+            name="from_name"
             placeholder="Enter your full name"
             required
           />
