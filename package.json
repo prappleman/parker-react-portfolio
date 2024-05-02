@@ -6,11 +6,11 @@
   "scripts": {
     "start": "webpack serve --mode development --open",
     "predeploy": "npm run build",
-    "deploy": "webpack --mode production",
+    "deploy": "npm run build && netlify deploy --prod",
     "build": "webpack --mode production",
     "test": "echo \"No test script specified\"",
     "eject": "echo \"Ejecting from webpack is not supported\""
-  },
+  },  
   "eslintConfig": {
     "extends": [
       "react-app",
