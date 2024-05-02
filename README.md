@@ -3,7 +3,7 @@
 ## Overview
 Welcome to my portfolio! This repository hosts the code for my single-page application portfolio deployed on Heroku. You can explore my recent projects, learn about my skills and experiences, and get in touch with me through the contact form.
 
-[Check out my Portfolio](https://parker-rappleye-portfolio-3e446a2b2490.herokuapp.com)
+[Check out my Portfolio](https://main--parker-rappleye-portfolio.netlify.app)
 
 ## Table of Contents
 - [Overview](#overview)
