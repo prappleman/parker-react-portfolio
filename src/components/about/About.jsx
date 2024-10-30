@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import meAbout from "../../assets/cave.png";
+import meAbout from "../../assets/GUITAR.jpg";
 import { FaAward, FaUsers, FaTasks } from "react-icons/fa";
 
 function About() {
@@ -40,13 +40,11 @@ function About() {
 
         <div className="about__content">
           <p>
-            <h3>Experience and Knowledge:</h3>
-            I kickstarted my coding journey at the University of Utah's boot camp, focusing on front-end essentials such as HTML, CSS, and JavaScript. This foundation empowered me to explore advanced tools like jQuery and React, refining my skills in developing intuitive and user-friendly web interfaces. On the back end, I gained proficiency in Node.js, Express.js, MySQL, and MongoDB, honing my abilities in database management and server-side programming. These experiences, coupled with my problem-solving expertise and continuous learning mindset, fuel my passion for coding and drive my pursuit of innovative solutions.
-            <br/> <br/>
-            <h3>About Me:</h3>
-            Hailing from Utah, I immerse myself in the wonders of the outdoors, whether it's camping under the stars or simply exploring nature's beauty. Music also plays a significant role in my life, where I enjoy playing with my band and expressing myself through art. This love for creativity seamlessly merges with my work in front-end development, where I channel my passion for visual art into crafting immersive digital experiences.
+            Aspiring software developer with a solid foundation in full-stack development, built through the University of Utah’s coding bootcamp and further strengthened by personal projects. My focus is on building intuitive, efficient user experiences through modern tech stacks, including JavaScript, React, Node.js, and database management.
+            <br></br>
+            <br></br>
+            In addition to technical skills, I bring a strong work ethic and adaptability from years of performing in a band, where collaboration, timing, and resilience are essential. These experiences have enhanced my ability to work well under pressure, communicate effectively, and approach problem-solving creatively. I’m eager to bring these skills, along with my enthusiasm for new technologies, to a software development role that allows me to continue learning and making a positive impact on users' experiences.
           </p>
-
           <a href="#contact" className="btn btn-primary about__btn">
             Connect
           </a>
